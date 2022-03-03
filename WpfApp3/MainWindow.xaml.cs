@@ -91,7 +91,7 @@ namespace WpfApp3
                 }
                 else
                 {
-                    textBox.TextDecorations.Clear();
+                    textBox.TextDecorations = null;
                     fl3 = false;
                 }
             }
